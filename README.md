@@ -1,2 +1,2 @@
 # ZadanieRekrutacyjneAlterPage
-Zadanie rekrutacyjne
+Zadanie rekrutacyjne.
