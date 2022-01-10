@@ -1,0 +1,58 @@
+<!DOCTYPE	html>
+<html lang="en-EN">
+<!-- Wprowadzam dane podstawowe o pliku html takie jak język, słowa kluczowe, obsługę edga -->
+<head>
+        <meta	charset='utf-8' lang='en-EN'>
+        <title>Kafelki</title>
+        <!-- Opisuję tytuł -->
+        <meta	name='description'	content='kafelki, kolorowe kwadraty'>
+        <meta	name='viewport'	content='width=device-width,	initial-scale=1'>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- Podłaczam arkusz stylów -->
+        <link rel='stylesheet' href='./css/main.css'>
+        <!-- Ustawiam w zakładce ikonę  -->
+        <link rel="shortcut icon" href="./img/tabIcon.png">
+</head>
+<body> 
+        <main class = "container"> 
+                <!-- Przyjmuję, żę kafle będą słuyżyły jako nawigacja po stronie i oznaczam jako nav, aby roboty mogły to odczytać -->
+                <nav class="mosaic">
+                    <!-- zgodnie z filozofią "mobile first" tworzę układ strony dla widolku mobilnego -->
+                    <div title ='substarct' class="yellowSquare item1"></div>
+                    <div title ='multiply' class="blueSquare item1"></div>
+                    <div title ='sum' class="bigSquare item1"></div>
+                    <div title ='multiply' class="blueSquare item2"></div>
+                    <div title ='substarct' class="yellowSquare item2"></div>
+                    <div title ='substarct' class="yellowSquare item3"></div>
+                    <div title ='multiply' class="blueSquare item3"></div>
+                    <div title ='multiply'class="blueSquare item4"></div>
+                    <div title ='substarct' class="yellowSquare item4"></div>
+                    <div title ='sum' class="bigSquare item2"></div>
+                    <div title ='substarct' class="yellowSquare item5"></div>
+                    <div title ='multiply'class="blueSquare item5"></div>
+                </nav>                       
+                <footer id="greyForm"> 
+                    <form action="index.html" method="post" ><br>  
+                            <!-- Ze względu na niedziałający flex css dla pól imput formularza stosuję pojemniki div -->
+                            <div><input type="text" id="input_a" name="input_a"  value ="input_a"
+                            pattern="input_a" title="input_a"></div>
+                            <div><input type="text" id="input_b" name="input_b"  value ="input_b"
+                            pattern="input_b" title="input_b"></div>
+                            <div><input type="text" id="input_c" name="input_c"  value ="input_c"
+                            pattern="input_c" title="input_c"></div>
+                            <div><input type="text" id="input_d" name="input_d"  value ="input_d"
+                            pattern="input_d" title="input_d"></div>
+                            <div><input type="input_e" id="input_e" name="input_e"  value ="input_e"
+                            pattern="input_e" title="input_e"></div>
+                            <div><input type="text" id="input_f" name="input_f"  value ="input_f"
+                            pattern="input_f" title="input_f"></div>
+                            <div><input type="text" id="output" name="output"  value ="output"
+                            pattern="output" title="output"></div>      
+                    </form>                
+                </footer>
+        </main>
+        
+
+<!-- Podłaczam plik JavaScript -->
+<script src='./js/calculate.js'></script>
+</body>
